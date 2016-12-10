@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-first-lego
+  host: iot-first-lego
+  disk_quota: 1024M
+  services:
+  - iot-first-lego-cloudantNoSQLDB
+  - iot-first-lego-iotf-service
